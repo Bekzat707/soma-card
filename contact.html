@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SOMaCard - Contact Us</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <nav>
+        <div class="logo">s<span>O</span>MaCard</div>
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="features.html">Features</a>
+            <a href="app.html">App</a>
+            <a href="testimonials.html">Testimonials</a>
+            <a href="contact.html">Contact</a>
+        </div>
+        <div class="language-selector">
+            <div class="current-lang" id="currentLang">EN ▼</div>
+            <div class="lang-dropdown" id="langDropdown">
+                <div class="lang-option" data-lang="en">English</div>
+                <div class="lang-option" data-lang="kz">Қазақша</div>
+                <div class="lang-option" data-lang="ru">Русский</div>
+            </div>
+        </div>
+    </nav>
+
+    <section class="contact-header">
+        <h1>Get in <span style="color: #00e6c7;">Touch</span></h1>
+        <p>We're here to answer your questions and provide support for all your SOMaCard needs.</p>
+    </section>
+    
+    <section class="contact-section" id="contact-form">
+        <div class="contact-grid">
+            <div class="contact-info">
+                <h2>Contact Information</h2>
+                <div class="info-item">
+                    <div class="info-icon">📍</div>
+                    <div class="info-text">
+                        <h3>Main Office</h3>
+                        <p>123 Dostyk Avenue, Almaty, Kazakhstan</p>
+                    </div>
+                </div>
+                <div class="info-item">
+                    <div class="info-icon">📞</div>
+                    <div class="info-text">
+                        <h3>Phone</h3>
+                        <p>+7 (727) 123-4567</p>
+                        <p>Customer Support: 24/7</p>
+                    </div>
+                </div>
+                <div class="info-item">
+                    <div class="info-icon">✉️</div>
+                    <div class="info-text">
+                        <h3>Email</h3>
+                        <p>info@somacard.kz</p>
+                        <p>support@somacard.kz</p>
+                    </div>
+                </div>
+                <div class="info-item">
+                    <div class="info-icon">⏰</div>
+                    <div class="info-text">
+                        <h3>Operating Hours</h3>
+                        <p>Monday-Friday: 9:00 - 18:00</p>
+                        <p>Saturday: 10:00 - 15:00</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="contact-form">
+                <h2>Send Us a Message</h2>
+                <form id="contactForm">
+                    <div class="form-group">
+                        <label for="name">Full Name</label>
+                        <input type="text" id="name" name="name" placeholder="Enter your name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Phone Number</label>
+                        <input type="tel" id="phone" name="phone" placeholder="Enter your phone number">
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Subject</label>
+                        <select id="subject" name="subject" required>
+                            <option value="" disabled selected>Select a subject</option>
+                            <option value="general">General Inquiry</option>
+                            <option value="support">Technical Support</option>
+                            <option value="partnership">Partnership Opportunities</option>
+                            <option value="feedback">Feedback & Suggestions</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" placeholder="Enter your message" required></textarea>
+                    </div>
+                    <button type="submit" class="submit-button">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <section class="office-locations">
+        <h2>Our Offices</h2>
+        <div class="locations-grid">
+            <div class="location-card">
+                <h3>Almaty</h3>
+                <p>123 Dostyk Avenue, Almaty</p>
+                <p>Phone: +7 (727) 123-4567</p>
+                <div class="map-placeholder">
+                    <!-- Map placeholder - in real implementation this would be an actual map -->
+                    <div class="map-image"></div>
+                </div>
+            </div>
+            <div class="location-card">
+                <h3>Astana</h3>
+                <p>45 Turan Avenue, Astana</p>
+                <p>Phone: +7 (717) 987-6543</p>
+                <div class="map-placeholder">
+                    <div class="map-image"></div>
+                </div>
+            </div>
+            <div class="location-card">
+                <h3>Shymkent</h3>
+                <p>78 Tauke Khan Avenue, Shymkent</p>
+                <p>Phone: +7 (725) 567-8901</p>
+                <div class="map-placeholder">
+                    <div class="map-image"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-column">
+                <h3>s<span style="color: #00e6c7;">O</span>MaCard</h3>
+                <p style="opacity: 0.7; margin-bottom: 1rem;">Making urban mobility simple, affordable, and efficient for everyone.</p>
+                <div class="social-links">
+                    <a href="#" class="social-icon">FB</a>
+                    <a href="#" class="social-icon">IG</a>
+                    <a href="#" class="social-icon">TT</a>
+                </div>
+            </div>
+            <div class="footer-column">
+                <h3>Services</h3>
+                <ul>
+                    <li><a href="#">Public Transport</a></li>
+                    <li><a href="#">Car Sharing</a></li>
+                    <li><a href="#">Bike & Scooter Rental</a></li>
+                    <li><a href="#">Corporate Solutions</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h3>Support</h3>
+                <ul>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Contact Support</a></li>
+                    <li><a href="#">Lost Card</a></li>
+                    <li><a href="#">Account Issues</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h3>Company</h3>
+                <ul>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">Partners</a></li>
+                    <li><a href="#">Press</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="copyright">
+            &copy; 2025 SOMaCard. All rights reserved.
+        </div>
+    </footer>
+
+    <script src="index.js"></script>
+</body>
+</html>
