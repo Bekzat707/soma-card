@@ -10,7 +10,6 @@ body {
     color: #333;
 }
 
-
 nav {
     background-color: #1a1a1a;
     padding: 1rem;
@@ -446,14 +445,19 @@ footer {
     }
 }
 
-
-.features-header, .app-header, .testimonials-header, .contact-header {
+.features-header,
+.app-header,
+.testimonials-header,
+.contact-header {
     background: linear-gradient(135deg, #1a1a1a 0%, #333 100%);
     color: white;
     padding: 4rem 10%;
     text-align: center;
 }
 
-.features-header h1, .app-header h1, .testimonials-header h1, .contact-header h1 {
-    font-size: 3
+.features-header h1,
+.app-header h1,
+.testimonials-header h1,
+.contact-header h1 {
+    font-size: 3rem;
 }
