@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="kk">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SOMaCard - Контакты</title>
+    <title>SOMaCard - Байланыс</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -11,14 +11,14 @@
     <nav>
         <div class="logo">s<span>O</span>MaCard</div>
         <div class="nav-links">
-            <a href="index.html">Главная</a>
-            <a href="features.html">Преимущества</a>
-            <a href="app.html">Приложение</a>
-            <a href="testimonials.html">Отзывы</a>
-            <a href="contact.html">Контакты</a>
+            <a href="index.html">Басты бет</a>
+            <a href="features.html">Артықшылықтар</a>
+            <a href="app.html">Қосымша</a>
+            <a href="testimonials.html">Пікірлер</a>
+            <a href="contact.html">Байланыс</a>
         </div>
         <div class="language-selector">
-            <div class="current-lang" id="currentLang">RU ▼</div>
+            <div class="current-lang" id="currentLang">KZ ▼</div>
             <div class="lang-dropdown" id="langDropdown">
                 <div class="lang-option" data-lang="en">English</div>
                 <div class="lang-option" data-lang="kz">Қазақша</div>
@@ -28,19 +28,19 @@
     </nav>
 
     <section class="contact-header">
-        <h1>Свяжитесь с <span style="color: #00e6c7;">нами</span></h1>
-        <p>Мы готовы ответить на ваши вопросы и предоставить поддержку по всем вопросам, связанным с SOMaCard.</p>
+        <h1><span style="color: #00e6c7;">Бізбен</span> хабарласыңыз</h1>
+        <p>SOMaCard қызметіне қатысты сұрақтарыңыз болса, біз көмектесуге әрқашан дайынбыз.</p>
     </section>
     
     <section class="contact-section" id="contact-form">
         <div class="contact-grid">
             <div class="contact-info">
-                <h2>Контактная информация</h2>
+                <h2>Байланыс ақпараттары</h2>
                 <div class="info-item">
                     <div class="info-icon">📍</div>
                     <div class="info-text">
-                        <h3>Главный офис</h3>
-                        <p>пр. Достык, 123, Алматы, Казахстан</p>
+                        <h3>Бас кеңсе</h3>
+                        <p>Достық даңғылы, 123, Алматы, Қазақстан</p>
                     </div>
                 </div>
                 <div class="info-item">
@@ -48,7 +48,7 @@
                     <div class="info-text">
                         <h3>Телефон</h3>
                         <p>+7 (727) 123-4567</p>
-                        <p>Поддержка клиентов: круглосуточно</p>
+                        <p>Тұтынушыларды қолдау: тәулік бойы</p>
                     </div>
                 </div>
                 <div class="info-item">
@@ -62,63 +62,62 @@
                 <div class="info-item">
                     <div class="info-icon">⏰</div>
                     <div class="info-text">
-                        <h3>Часы работы</h3>
-                        <p>Пн-Пт: 9:00 - 18:00</p>
+                        <h3>Жұмыс уақыты</h3>
+                        <p>Дс-Жм: 9:00 - 18:00</p>
                         <p>Сб: 10:00 - 15:00</p>
                     </div>
                 </div>
             </div>
             
             <div class="contact-form">
-                <h2>Отправьте нам сообщение</h2>
+                <h2>Бізге хабарлама жіберіңіз</h2>
                 <form id="contactForm">
                     <div class="form-group">
-                        <label for="name">Имя и фамилия</label>
-                        <input type="text" id="name" name="name" placeholder="Введите ваше имя" required>
+                        <label for="name">Аты-жөніңіз</label>
+                        <input type="text" id="name" name="name" placeholder="Аты-жөніңізді енгізіңіз" required>
                     </div>
                     <div class="form-group">
                         <label for="email">Email</label>
-                        <input type="email" id="email" name="email" placeholder="Введите ваш email" required>
+                        <input type="email" id="email" name="email" placeholder="Электронды поштаңызды енгізіңіз" required>
                     </div>
                     <div class="form-group">
-                        <label for="phone">Номер телефона</label>
-                        <input type="tel" id="phone" name="phone" placeholder="Введите ваш номер телефона">
+                        <label for="phone">Телефон нөмірі</label>
+                        <input type="tel" id="phone" name="phone" placeholder="Телефон нөміріңізді енгізіңіз">
                     </div>
                     <div class="form-group">
-                        <label for="subject">Тема</label>
+                        <label for="subject">Тақырып</label>
                         <select id="subject" name="subject" required>
-                            <option value="" disabled selected>Выберите тему</option>
-                            <option value="general">Общий вопрос</option>
-                            <option value="support">Техническая поддержка</option>
-                            <option value="partnership">Возможности партнёрства</option>
-                            <option value="feedback">Отзывы и предложения</option>
+                            <option value="" disabled selected>Тақырыпты таңдаңыз</option>
+                            <option value="general">Жалпы сұрақ</option>
+                            <option value="support">Техникалық қолдау</option>
+                            <option value="partnership">Серіктестік мүмкіндіктері</option>
+                            <option value="feedback">Пікірлер мен ұсыныстар</option>
                         </select>
                     </div>
                     <div class="form-group">
-                        <label for="message">Сообщение</label>
-                        <textarea id="message" name="message" rows="5" placeholder="Введите ваше сообщение" required></textarea>
+                        <label for="message">Хабарлама</label>
+                        <textarea id="message" name="message" rows="5" placeholder="Хабарламаңызды енгізіңіз" required></textarea>
                     </div>
-                    <button type="submit" class="submit-button">Отправить</button>
+                    <button type="submit" class="submit-button">Жіберу</button>
                 </form>
             </div>
         </div>
     </section>
 
     <section class="office-locations">
-        <h2>Наши офисы</h2>
+        <h2>Кеңселеріміз</h2>
         <div class="locations-grid">
             <div class="location-card">
                 <h3>Алматы</h3>
-                <p>пр. Достык, 123, Алматы</p>
+                <p>Достық даңғылы, 123, Алматы</p>
                 <p>Телефон: +7 (727) 123-4567</p>
                 <div class="map-placeholder">
-                    <!-- Заглушка для карты – в реальной реализации здесь будет интерактивная карта -->
                     <div class="map-image"></div>
                 </div>
             </div>
             <div class="location-card">
                 <h3>Астана</h3>
-                <p>пр. Туран, 45, Астана</p>
+                <p>Тұран даңғылы, 45, Астана</p>
                 <p>Телефон: +7 (717) 987-6543</p>
                 <div class="map-placeholder">
                     <div class="map-image"></div>
@@ -126,7 +125,7 @@
             </div>
             <div class="location-card">
                 <h3>Шымкент</h3>
-                <p>пр. Тауке Хана, 78, Шымкент</p>
+                <p>Тәуке хан даңғылы, 78, Шымкент</p>
                 <p>Телефон: +7 (725) 567-8901</p>
                 <div class="map-placeholder">
                     <div class="map-image"></div>
@@ -139,7 +138,7 @@
         <div class="footer-content">
             <div class="footer-column">
                 <h3>s<span style="color: #00e6c7;">O</span>MaCard</h3>
-                <p style="opacity: 0.7; margin-bottom: 1rem;">Делаем городскую мобильность простой, доступной и удобной для всех.</p>
+                <p style="opacity: 0.7; margin-bottom: 1rem;">Қалалық мобильділікті қарапайым, қолжетімді әрі ыңғайлы етеміз.</p>
                 <div class="social-links">
                     <a href="#" class="social-icon">FB</a>
                     <a href="#" class="social-icon">IG</a>
@@ -147,35 +146,35 @@
                 </div>
             </div>
             <div class="footer-column">
-                <h3>Услуги</h3>
+                <h3>Қызметтер</h3>
                 <ul>
-                    <li><a href="#">Общественный транспорт</a></li>
+                    <li><a href="#">Қоғамдық көлік</a></li>
                     <li><a href="#">Каршеринг</a></li>
-                    <li><a href="#">Прокат велосипедов и самокатов</a></li>
-                    <li><a href="#">Корпоративные решения</a></li>
+                    <li><a href="#">Велосипед және самокат жалдау</a></li>
+                    <li><a href="#">Корпоративтік шешімдер</a></li>
                 </ul>
             </div>
             <div class="footer-column">
-                <h3>Поддержка</h3>
+                <h3>Қолдау</h3>
                 <ul>
-                    <li><a href="#">Частые вопросы (FAQ)</a></li>
-                    <li><a href="#">Связаться с поддержкой</a></li>
-                    <li><a href="#">Утерянная карта</a></li>
-                    <li><a href="#">Проблемы с аккаунтом</a></li>
+                    <li><a href="#">Жиі қойылатын сұрақтар</a></li>
+                    <li><a href="#">Қолдау қызметімен байланысу</a></li>
+                    <li><a href="#">Жоғалған карта</a></li>
+                    <li><a href="#">Аккаунт мәселелері</a></li>
                 </ul>
             </div>
             <div class="footer-column">
                 <h3>Компания</h3>
                 <ul>
-                    <li><a href="#">О нас</a></li>
-                    <li><a href="#">Карьера</a></li>
-                    <li><a href="#">Партнёры</a></li>
-                    <li><a href="#">Пресса</a></li>
+                    <li><a href="#">Біз туралы</a></li>
+                    <li><a href="#">Мансап</a></li>
+                    <li><a href="#">Серіктестер</a></li>
+                    <li><a href="#">Баспасөз</a></li>
                 </ul>
             </div>
         </div>
         <div class="copyright">
-            &copy; 2025 SOMaCard. Все права защищены.
+            &copy; 2025 SOMaCard. Барлық құқықтар қорғалған.
         </div>
     </footer>
 
